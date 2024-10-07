@@ -29,6 +29,15 @@ An interactive guessing game where the user attempts to guess a randomly generat
   - Text-to-speech functionality for an enhanced experience.
   - Tracks the number of attempts and celebrates correct guesses.
 
+### 4. War Card Game
+Inspired by the classic card game "War," this script simulates a round where the player and computer each draw a random card. The player with the higher card wins the round.
+
+- **Features**:
+  - Randomly selects a card for both the player and the computer from a standard deck (2 to Ace in four suits).
+  - Compares card values to determine the winner.
+  - Provides feedback indicating whether the player won, lost, or if the round was a tie.
+ 
+
 ## Getting Started
 
 1. **Clone the Repository**:
