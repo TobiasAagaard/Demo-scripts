@@ -3,6 +3,8 @@
 $problems = get-content $filePath
 
 function CorrectCalc () {
+
+    foreach ($problem in $problems) {
     
     $splitString = $problems -split '';
 
@@ -21,5 +23,10 @@ function CorrectCalc () {
         $result = $number1 -eq $number2
     }
 
-    
+    if ($result -eq $sum) {
+        Write-Host "Det er rigtigt"
+    } else {
+        Write-Host "De"
+    }
+}
 }
