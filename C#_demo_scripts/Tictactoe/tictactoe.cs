@@ -15,7 +15,7 @@ class TicTacToe {
             };
 
             DisplayBoard();
-            choice = int.Parse(Console.ReadLine()) - 1;
+            choice = int.Parse(Console.ReadLine()) -1;
 
               if (board[choice] != 'X' && board[choice] != 'O')
             {
@@ -29,7 +29,7 @@ class TicTacToe {
             }
 
         } while(flag == 0);
-        
+
             Console.Clear();
             DisplayBoard();
             if (flag == 1) {
