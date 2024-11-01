@@ -29,6 +29,14 @@ class TicTacToe {
             }
 
         } while(flag == 0);
+        
+            Console.Clear();
+            DisplayBoard();
+            if (flag == 1) {
+                Console.WriteLine($"Spiller {(player % 2) +1} Vinder");
+            } else {
+                Console.WriteLine("Det blev uafgjort");
+            }
     }
 
      static void DisplayBoard()
@@ -39,4 +47,5 @@ class TicTacToe {
         Console.WriteLine("---+---+---");
         Console.WriteLine(" {0} | {1} | {2} ", board[6], board[7], board[8]);
     }
+     
 }
