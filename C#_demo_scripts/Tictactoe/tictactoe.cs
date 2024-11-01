@@ -1,7 +1,7 @@
 ﻿using System;
 
 class TicTacToe {
-    static char[] board = {'0', '1', '2', '3', '4', '5', '6', '7', '8'};
+    static char[] board = {'1', '2', '3', '4', '5', '6', '7', '8', '9'};
     static int player = 1;
     static int choice; 
     static int flag = 0;
@@ -17,7 +17,18 @@ class TicTacToe {
             DisplayBoard();
             choice = int.Parse(Console.ReadLine()) - 1;
 
-        } while(flag == 1);
+              if (board[choice] != 'X' && board[choice] != 'O')
+            {
+                board[choice] = player % 2 == 0 ? 'O' : 'X';
+                player++;
+            }
+            else
+            {
+                Console.WriteLine("Feltet er allerede valgt, prøv et andet.");
+                Console.ReadLine();
+            }
+
+        } while(flag == 0);
     }
 
      static void DisplayBoard()

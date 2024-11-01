@@ -14,11 +14,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Demo scripts.csproj",
+      "projectUniqueName": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Tictactoe\\Demo scripts.csproj",
       "projectName": "Demo scripts",
-      "projectPath": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Demo scripts.csproj",
+      "projectPath": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Tictactoe\\Demo scripts.csproj",
       "packagesPath": "C:\\Users\\tobia\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\obj\\",
+      "outputPath": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Tictactoe\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
