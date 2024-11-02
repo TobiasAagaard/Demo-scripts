@@ -59,7 +59,8 @@ class TicTacToe
             DisplayBoard();
             if (flag == 1)
             {
-                Console.WriteLine($"Spiller {(player % 2) + 1} Vinder");
+               
+                Console.WriteLine($"Spiller {(player % 2 == 0 ? 'X' : 'O')} vinder");
             }
             else
             {
@@ -118,6 +119,3 @@ class TicTacToe
         Console.WriteLine(" {0} | {1} | {2} ", board[6], board[7], board[8]);
     }
 }
-
-
-
