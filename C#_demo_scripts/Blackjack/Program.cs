@@ -1,5 +1,6 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.Linq;
 
 class Card
 {
@@ -34,6 +35,11 @@ class Deck
 
     public Deck()
     {
+        InitializeDeck();
+    }
+
+    private void InitializeDeck()
+    {
         string[] suits = { "Hearts", "Diamonds", "Clubs", "Spades" };
         string[] values = { "Ace", "2", "3", "4", "5", "6", "7", "8", "9", "10", "Jack", "Queen", "King" };
 
@@ -62,12 +68,19 @@ class Deck
         cards.RemoveAt(0);
         return card;
     }
+
+    public void ResetDeck()
+    {
+        cards.Clear();
+        InitializeDeck();
+        Shuffle();
+    }
 }
 
 class Hand
 {
     public List<Card> Cards { get; private set; } = new List<Card>();
-    
+
     public void AddCard(Card card)
     {
         Cards.Add(card);
@@ -89,6 +102,11 @@ class Hand
         }
         return score;
     }
+
+    public void ClearHand()
+    {
+        Cards.Clear();
+    }
 }
 
 class BlackjackGame
@@ -100,22 +118,36 @@ class BlackjackGame
     public BlackjackGame()
     {
         deck = new Deck();
-        deck.Shuffle();
         playerHand = new Hand();
         dealerHand = new Hand();
     }
 
     public void StartGame()
     {
-        playerHand.AddCard(deck.DrawCard());
-        playerHand.AddCard(deck.DrawCard());
-        dealerHand.AddCard(deck.DrawCard());
-        dealerHand.AddCard(deck.DrawCard());
+        bool playAgain;
+        do
+        {
+            ResetGame();
+            Console.WriteLine("Welcome to Blackjack!");
+            PlayerTurn();
+            DealerTurn();
+            DetermineWinner();
 
-        Console.WriteLine("Welcome to Blackjack!");
-        PlayerTurn();
-        DealerTurn();
-        DetermineWinner();
+            Console.Write("Do you want to play again? (Y/N): ");
+            string response = Console.ReadLine().ToUpper();
+            playAgain = response == "Y";
+        } while (playAgain);
+    }
+
+    private void ResetGame()
+    {
+        deck.ResetDeck();
+        playerHand.ClearHand();
+        dealerHand.ClearHand();
+        playerHand.AddCard(deck.DrawCard());
+        playerHand.AddCard(deck.DrawCard());
+        dealerHand.AddCard(deck.DrawCard());
+        dealerHand.AddCard(deck.DrawCard());
     }
 
     private void PlayerTurn()
