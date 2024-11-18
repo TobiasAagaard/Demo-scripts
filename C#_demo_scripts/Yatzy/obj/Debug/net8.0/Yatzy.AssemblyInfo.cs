@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("Yatzy")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+8c377d28eb3476038f999a19c4fb16794dea68e7")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2863885aa3d4bb6fca250bbaf8af536238fb49ab")]
 [assembly: System.Reflection.AssemblyProductAttribute("Yatzy")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Yatzy")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
