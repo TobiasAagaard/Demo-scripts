@@ -1,3 +1,7 @@
-﻿// See https://aka.ms/new-console-template for more information
-Console.WriteLine("-- Welcome to Yatzy --");
+﻿using System;
 
+class Program {
+    static void Main(string[] args) {
+           Console.WriteLine("-- Welcome to Yatzy --");
+    }
+}
