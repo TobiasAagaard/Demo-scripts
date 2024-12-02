@@ -17,5 +17,5 @@ This repository is intended to:
 
 - Serve as a playground for testing and practicing code.
 - Act as a reference for quick implementations.
-- Provide an easy way to set up a coding environment and quickly start working on small projects or experiments.
+- Provide an easy way to set up a coding environment and quickly start working on small snippets or experiments.
 
