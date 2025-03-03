@@ -20,5 +20,10 @@ namespace Lommeregner_wpf
         {
             InitializeComponent();
         }
+
+        private void btn_SayHello_Click(object sender, RoutedEventArgs e)
+        {
+
+        }
     }
 }

@@ -3,6 +3,10 @@
   "WorkspaceRootPath": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{EC0C3F63-1969-4D08-B1EA-50CC8420916B}|Lommeregner-wpf\\Lommeregner-wpf.csproj|c:\\users\\tobia\\onedrive\\dokumenter\\datatekniker\\programmering\\powershell\\demo scripts\\c#_demo_scripts\\lommeregner-wpf\\lommeregner-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{EC0C3F63-1969-4D08-B1EA-50CC8420916B}|Lommeregner-wpf\\Lommeregner-wpf.csproj|solutionrelative:lommeregner-wpf\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{EC0C3F63-1969-4D08-B1EA-50CC8420916B}|Lommeregner-wpf\\Lommeregner-wpf.csproj|c:\\users\\tobia\\onedrive\\dokumenter\\datatekniker\\programmering\\powershell\\demo scripts\\c#_demo_scripts\\lommeregner-wpf\\lommeregner-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{EC0C3F63-1969-4D08-B1EA-50CC8420916B}|Lommeregner-wpf\\Lommeregner-wpf.csproj|solutionrelative:lommeregner-wpf\\mainwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
@@ -19,12 +23,24 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "MainWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\Lommeregner-wpf\\MainWindow.xaml",
+              "RelativeDocumentMoniker": "Lommeregner-wpf\\MainWindow.xaml",
+              "ToolTip": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\Lommeregner-wpf\\MainWindow.xaml*",
+              "RelativeToolTip": "Lommeregner-wpf\\MainWindow.xaml*",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2025-03-03T11:33:38.896Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\Lommeregner-wpf\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "Lommeregner-wpf\\MainWindow.xaml.cs",
-              "ToolTip": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\Lommeregner-wpf\\MainWindow.xaml.cs",
-              "RelativeToolTip": "Lommeregner-wpf\\MainWindow.xaml.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\tobia\\OneDrive\\Dokumenter\\Datatekniker\\Programmering\\Powershell\\Demo scripts\\C#_demo_scripts\\Lommeregner-wpf\\Lommeregner-wpf\\MainWindow.xaml.cs*",
+              "RelativeToolTip": "Lommeregner-wpf\\MainWindow.xaml.cs*",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-03T11:33:37.083Z",
               "EditorCaption": ""
