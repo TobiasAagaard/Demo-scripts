@@ -6,4 +6,5 @@ import (
 
 func SetupRoutes(server *gin.Engine) {
 	server.GET("/events")
+	server.POST("/events")
 }
