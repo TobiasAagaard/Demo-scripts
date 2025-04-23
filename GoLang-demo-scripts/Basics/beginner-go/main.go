@@ -13,4 +13,12 @@ func main() {
 	)
 	fmt.Printf("Hello my name is %s\n I am %d years old\n Do I have a girlfrind? %t\n", name, age, girlfreind)
 
+	result := add(3, 5)
+
+	fmt.Println("This is the result", result)
+
+}
+
+func add(a int, b int) int {
+	return a + b
 }
