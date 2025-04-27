@@ -25,6 +25,12 @@ func main() {
 		fmt.Println("You're a child")
 	}
 
+	fruits := [5]string{
+		"Apple", "Banana", "Orange",
+	}
+
+	fmt.Printf(fruits[2])
+
 }
 
 func add(a int, b int) int {
